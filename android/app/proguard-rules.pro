@@ -1,0 +1,2 @@
+-keep class com.pichillilorenzo.flutter_inappwebview.** { *; }
+-keep class io.flutter.plugins.webview_flutter.** { *; }

@@ -42,6 +42,7 @@ class _FullScreenWebViewState extends State<FullScreenWebView> {
 
   // Replace with your website URL
   final String _url = 'https://falakey.com';
+  // final String _url = 'https://visit.virtualartgallery.com/iwasbornagirl';
 
   @override
   void initState() {
@@ -81,7 +82,7 @@ class _FullScreenWebViewState extends State<FullScreenWebView> {
       // Advanced JavaScript configuration
       ..enableZoom(false) // Disable zoom for better control
       // ..enableDomStorage(true) // Enable DOM storage
-      
+
       // Add JavaScript channels if needed
       ..addJavaScriptChannel(
         'Flutter',
